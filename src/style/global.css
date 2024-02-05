@@ -26,7 +26,7 @@ a {
 
 .btn{
     border-radius: 6px;
-    cursos: pointer;
+    cursor: pointer;
 }
 
 .btn-red{
@@ -35,6 +35,23 @@ a {
     border: 0px;
     padding: 10px;
     font-size: 1rem;
+}
+
+.btn-red:hover{
+    background-color: #D24434;
+}
+
+.btn-cart{
+    background-color: #FFF;
+    border: 3px solid #E9E9E9;
+    border-radius: 50px;
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.btn-cart:hover{
+    background-color: #ECECEC;    
 }
 
 .container{
