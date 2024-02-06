@@ -12,11 +12,12 @@ function Home() {
                 </p>
             </div>
         </div>        
-
-        <ProdutoVitrine />
-        <ProdutoVitrine />
-        <ProdutoVitrine />
-        <ProdutoVitrine />
+        <div className="text-center">
+            <ProdutoVitrine />
+            <ProdutoVitrine />
+            <ProdutoVitrine />
+            <ProdutoVitrine />
+        </div>
         
     </>
 }

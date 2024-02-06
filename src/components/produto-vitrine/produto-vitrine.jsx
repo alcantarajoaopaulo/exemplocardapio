@@ -2,9 +2,9 @@ import "./produto-vitrine.css";
 import foto from "../../assets/hamburguer.png";
 import bag from "../../assets/bolsa.png";
 
-function ProdutoVitrine(){
+function ProdutoVitrine(props){
     return <div className="produto-box text-center">
-        <img src={foto} alt="Imagem"/>
+        <img src={foto} className="img-produto-vitrine" alt="Imagem"/>
         <div>
             <h2>Spice Burguer</h2>
             <p className="prod-vitrine-descricao">Hamburguer de 250g, queijo, tomate, alface e cebola</p>
